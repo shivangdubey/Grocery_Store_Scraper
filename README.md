@@ -1,5 +1,5 @@
 # BigBasket_Scraper
 Scraping data from BigBasket
 
-category_gathering.ipynb gathers all the Main, Sub and Sub-Sub categories in a formatted style from BigBasket and stores it in a links.txt file in the system.
-tabular_catgeory converts the scraped links in to Dataframe with repect to Categories and Sub-categories.
+main_scraper scraps all detials considering Categories and Description like Price, Quantity and Brand in a data frame. The images of defines products are also scraped. 
+This will work with links1.txt or one can store the recent categories link by using category_gathering module.
